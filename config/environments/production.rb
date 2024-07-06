@@ -90,7 +90,7 @@ Rails.application.configure do
   # 本番環境でのメール送信
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
-  host = 'sample-app-new.onrender.com'
+  host = 'https://sample-app-new-7ia2.onrender.com'
   config.action_mailer.default_url_options = { host: host }
   ActionMailer::Base.smtp_settings = {
     :port           => 587,
