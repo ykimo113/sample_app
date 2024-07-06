@@ -4,6 +4,6 @@ class ApplicationMailer < ActionMailer::Base
   # layout "mailer"
 
   # 本番環境用
-  default from: "snk8066@gmail.com"
+  default from: "snk8066+1@gmail.com"
   layout "mailer"
 end
